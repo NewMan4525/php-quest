@@ -1,8 +1,6 @@
 <?php
+$bool=true;
+$null=null;
 
-$a=154.1;
-
-$b='friend message';
-
-var_dump($a);
-var_dump($b);
+var_dump(isset($bool));
+var_dump(isset($null));
