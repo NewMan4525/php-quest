@@ -1,12 +1,14 @@
 <?php
 
-$language='php';
-$arr=['javascript'];
+$current_lang='php';
+$complite_lang='javascript';
+$heredoc_format =<<<HEREDOC
+I am lerning {$current_lang}...i known {$complite_lang}
+HEREDOC;
 
-$str='i am lerning '.$language;
-$str_end="...i am known {$arr[0]}!";
-$final =$str;
-var_dump($final);
+$current_var= `dir`;
+
+var_dump($current_var);
 
 
 ?>
