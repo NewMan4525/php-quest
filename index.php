@@ -1,20 +1,12 @@
 <?php
 
-$arrayName2=['wallet'=>500,'pocket'=>'diplom','phone'=>false,
-'list'=>['fruit','bread']
-];
+$language='php';
+$arr=['javascript'];
 
-var_dump($arrayName2);
-
-
-$obj=new stdClass;
-$obj->a ='i am property A';
-
-
-
-var_dump($obj);
-
-
+$str='i am lerning '.$language;
+$str_end="...i am known {$arr[0]}!";
+$final =$str;
+var_dump($final);
 
 
 ?>
