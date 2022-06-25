@@ -1,14 +1,18 @@
 <?php
+$a =0;
+$b =2;
+$c =3;
+$d=$a==1?:'noequil';
+//сперва нужно выполнить более легкие условия поиска(сравнения)
+// а потом накружать более сложными если легкие выполнились.
 
-$current_lang='php';
-$complite_lang='javascript';
-$heredoc_format =<<<HEREDOC
-I am lerning {$current_lang}...i known {$complite_lang}
-HEREDOC;
+if (($a==1||$b==2)&&$c==3){
 
-$current_var= `dir`;
+echo "yes.$d";
 
-var_dump($current_var);
+}else{
+	echo "no.$d";
+};
 
-
+var_dump($d);
 ?>
